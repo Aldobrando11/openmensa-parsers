@@ -27,13 +27,10 @@ jobs:
       - name: Generate XML Feeds using parse.py
         run: |
           # Generate full.xml
-          python3 parse.py thueringen ge-freundschaft full.xml
+          python3 parse.py thueringen ge-freundschaft full.xml > data.xml
 
           # Generate today.xml
-          python3 parse.py thueringen ge-freundschaft today.xml
-
-          # Copy full.xml to data.xml
-          cp full.xml data.xml
+          python3 parse.py thueringen ge-freundschaft today.xml > today.xml
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
