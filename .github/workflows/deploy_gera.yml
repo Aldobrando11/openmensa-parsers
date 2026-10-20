@@ -35,7 +35,7 @@ jobs:
 
           cp public/full.xml public/data.xml
 
-          cat << 'EOF' > index.xml
+          cat << 'EOF' > public/index.xml
           <?xml version="1.0" encoding="UTF-8"?>
           <openmensa-index xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
               <canteen>
