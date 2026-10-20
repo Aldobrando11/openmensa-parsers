@@ -1,0 +1,46 @@
+name: Update OpenMensa Feeds
+
+on:
+  schedule:
+    # Runs daily at 05:00 UTC (07:00 CEST)
+    - cron: '0 5 * * *'
+  workflow_dispatch:
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Generate XML Feeds using parse.py
+        run: |
+          # Generate full.xml
+          python3 parse.py thueringen ge-freundschaft full.xml
+
+          # Generate today.xml
+          python3 parse.py thueringen ge-freundschaft today.xml
+
+          # Copy full.xml to data.xml
+          cp full.xml data.xml
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: .
+          publish_branch: gh-pages
+```eof
+
+The updated workflow file is generated and ready in the panel on the right. You can now commit it directly to `.github/workflows/deploy_thueringen.yml` in your repository.
