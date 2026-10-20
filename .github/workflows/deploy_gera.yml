@@ -26,15 +26,17 @@ jobs:
 
       - name: Generate XML Feeds using parse.py
         run: |
+          mkdir -p public
           # Generate full.xml
-          python3 parse.py thueringen ge-freundschaft full.xml > data.xml
+          python3 parse.py thueringen ge-freundschaft full.xml > public/data.xml
 
           # Generate today.xml
-          python3 parse.py thueringen ge-freundschaft today.xml > today.xml
+          python3 parse.py thueringen ge-freundschaft today.xml > public/today.xml
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: .
+          publish_dir: ./public
           publish_branch: gh-pages
+          force_orphan: true
