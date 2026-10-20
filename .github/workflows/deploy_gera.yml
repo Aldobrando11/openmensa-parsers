@@ -35,16 +35,6 @@ jobs:
 
           cp public/full.xml public/data.xml
 
-          cat << 'EOF' > public/index.xml
-          <?xml version="1.0" encoding="UTF-8"?>
-          <openmensa-index xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
-              <canteen>
-                  <name>Mensa Weg der Freundschaft</name>
-                  <url>https://aldobrando11.github.io/openmensa-parsers/full.xml</url>
-              </canteen>
-          </openmensa-index>
-          EOF
-
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
