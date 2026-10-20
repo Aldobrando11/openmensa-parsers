@@ -24,7 +24,7 @@ def parse_meals(document):
 
 		misc = []
 		for misc_category in meal.find_all(class_='splIconMeal'):
-			misc.append(misc_category['title'])
+			misc.append(misc_category['alt'])
 			
 		info = {
 				'additives': additives_regex.findall(additives_element.string) if additives_element and additives_element.string else [],
