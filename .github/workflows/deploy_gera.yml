@@ -28,10 +28,12 @@ jobs:
         run: |
           mkdir -p public
           # Generate full.xml
-          python3 parse.py thueringen ge-freundschaft full.xml > public/data.xml
+          python3 parse.py thueringen ge-freundschaft full.xml > public/full.xml
 
           # Generate today.xml
           python3 parse.py thueringen ge-freundschaft today.xml > public/today.xml
+
+          cp public/full.xml public/data.xml
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
