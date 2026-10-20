@@ -41,6 +41,3 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: .
           publish_branch: gh-pages
-```eof
-
-The updated workflow file is generated and ready in the panel on the right. You can now commit it directly to `.github/workflows/deploy_thueringen.yml` in your repository.
