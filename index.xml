@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openmensa version="2.1"
+           xmlns="http://openmensa.org/open-mensa-v2"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
+  <version>5.04-4</version>
+  <canteen>
+    <name>Mensa Weg der Freundschaft</name>
+    <address>
+Weg der Freundschaft 4, 07546 Gera, Deutschland</address>
+    <city>Gera</city>
+    <location latitude="50.9036892" longitude="12.0703215" />
+    <availability>public</availability>
+    <times type="opening">
+      <monday open="11:00-13:30" />
+      <tuesday open="11:00-13:30" />
+      <wednesday open="11:00-13:30" />
+      <thursday open="11:00-13:30" />
+      <friday open="11:00-13:30" />
+      <saturday closed="true" />
+      <sunday closed="true" />
+    </times>
+    </feed>
+    <feed name="full" priority="1">
+      <schedule dayOfMonth="*" dayOfWeek="1-5" hour="6" retry="60 3 1440" />
+      <url>https://aldobrando11.github.io/openmensa-parsers/full.xml</url>
+      <source>https://www.stw-thueringen.de/mensen/gera/mensa-weg-der-freundschaft.html</source>
+    </feed>
+  </canteen>
+</openmensa>
