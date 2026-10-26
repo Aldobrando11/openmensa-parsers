@@ -34,6 +34,7 @@ jobs:
           python3 parse.py thueringen ge-freundschaft today.xml > public/today.xml
 
           cp public/full.xml public/data.xml
+          cp index.xml public/index.xml
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
