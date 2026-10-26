@@ -6,8 +6,7 @@
   <version>5.04-4</version>
   <canteen>
     <name>Mensa Weg der Freundschaft</name>
-    <address>
-Weg der Freundschaft 4, 07546 Gera, Deutschland</address>
+    <address>Weg der Freundschaft 4, 07546 Gera, Deutschland</address>
     <city>Gera</city>
     <location latitude="50.9036892" longitude="12.0703215" />
     <availability>public</availability>
@@ -20,7 +19,6 @@ Weg der Freundschaft 4, 07546 Gera, Deutschland</address>
       <saturday closed="true" />
       <sunday closed="true" />
     </times>
-    </feed>
     <feed name="full" priority="1">
       <schedule dayOfMonth="*" dayOfWeek="1-5" hour="6" retry="60 3 1440" />
       <url>https://aldobrando11.github.io/openmensa-parsers/full.xml</url>
