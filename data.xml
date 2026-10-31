@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
+  <version>2.0</version>
+  <canteen>
+    <day date="2026-11-02">
+      <category name="Vegan">
+        <meal>
+          <name>Scharfes Kürbisgemüse mit Linsen und Rucola, dazu Penne</name>
+          <note>Vegetarische Speisen (V), Vegane Speisen (V*)</note>
+          <note>ohne deklarationspflichtige Zusatzstoffe</note>
+          <price role="employee">4.40</price>
+          <price role="other">5.80</price>
+          <price role="student">2.00</price>
+        </meal>
+      </category>
+      <category name="Fleisch">
+        <meal>
+          <name>Geschnetzeltes in Tomaten- Kräuterrahm , Reis und Salatbeilage</name>
+          <note>Allergene: Hühnerei, Milch- und Milchzucker</note>
+          <note>Schweinefleisch (S)</note>
+          <note>ohne deklarationspflichtige Zusatzstoffe</note>
+          <price role="employee">6.20</price>
+          <price role="other">7.60</price>
+          <price role="student">4.20</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2026-11-03">
+      <category name="Vegan">
+        <meal>
+          <name>Rauchige Barbecue-Bohnenpfanne, dazu Salzkartoffeln</name>
+          <note>Vegetarische Speisen (V), Vegane Speisen (V*), Knoblauch (K)</note>
+          <note>ohne deklarationspflichtige Zusatzstoffe</note>
+          <price role="employee">4.40</price>
+          <price role="other">5.80</price>
+          <price role="student">2.00</price>
+        </meal>
+      </category>
+      <category name="Fleisch">
+        <meal>
+          <name>Chili con Carne mit Reis</name>
+          <note>Schweinefleisch (S), Knoblauch (K)</note>
+          <note>ohne deklarationspflichtige Zusatzstoffe</note>
+          <price role="employee">5.90</price>
+          <price role="other">7.30</price>
+          <price role="student">3.70</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2026-11-04">
+      <category name="Vegan">
+        <meal>
+          <name>Erbsentopf mit einem Kaiserbrötchen</name>
+          <note>Allergene: Sellerie, Weizen</note>
+          <note>Vegetarische Speisen (V), Vegane Speisen (V*)</note>
+          <note>ohne deklarationspflichtige Zusatzstoffe</note>
+          <price role="employee">4.40</price>
+          <price role="other">5.80</price>
+          <price role="student">2.00</price>
+        </meal>
+      </category>
+      <category name="Fleisch">
+        <meal>
+          <name>Schweineschnitzel , Gemüse und Kartoffeln</name>
+          <note>Allergene: Hühnerei, Soja, Milch- und Milchzucker, Sellerie, Senf</note>
+          <note>Schweinefleisch (S), Knoblauch (K)</note>
+          <note>ohne deklarationspflichtige Zusatzstoffe</note>
+          <price role="employee">5.90</price>
+          <price role="other">7.30</price>
+          <price role="student">3.70</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2026-11-05">
+      <category name="Fleisch">
+        <meal>
+          <name>Spaghetti mit Schinken Carbonara</name>
+          <note>Allergene: Hühnerei, Milch- und Milchzucker, Sellerie</note>
+          <note>Schweinefleisch (S), Knoblauch (K)</note>
+          <note>Zusatzstoffe: Farbstoff, Konservierungsstoff, Antioxidationsmittel, Phosphat</note>
+          <price role="employee">5.40</price>
+          <price role="other">6.80</price>
+          <price role="student">3.20</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2026-11-06">
+      <category name="Vegan">
+        <meal>
+          <name>Spaghetti mit Mango-Tomatensoße</name>
+          <note>Vegetarische Speisen (V), Vegane Speisen (V*), Knoblauch (K)</note>
+          <note>ohne deklarationspflichtige Zusatzstoffe</note>
+          <price role="employee">4.40</price>
+          <price role="other">5.80</price>
+          <price role="student">2.00</price>
+        </meal>
+      </category>
+      <category name="Fleisch">
+        <meal>
+          <name>Curryrahm - Hähnchengeschnetzeltes , Reis</name>
+          <note>Allergene: Milch- und Milchzucker</note>
+          <note>Geflügel (G), Knoblauch (K)</note>
+          <note>ohne deklarationspflichtige Zusatzstoffe</note>
+          <price role="employee">5.90</price>
+          <price role="other">7.30</price>
+          <price role="student">3.70</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2026-11-09">
+      <category name="Vegan">
+        <meal>
+          <name>Rote Bete-Puffer mit Wurzelgemüse in Meerrettichsauce, dazu Kartoffelpüree</name>
+          <note>Allergene: Soja, Sellerie, Schwefeloxid/Sulfite, Weizen</note>
+          <note>Vegetarische Speisen (V), Vegane Speisen (V*)</note>
+          <note>Zusatzstoffe: Farbstoff, Antioxidationsmittel</note>
+          <price role="employee">4.40</price>
+          <price role="other">5.80</price>
+          <price role="student">2.00</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2026-11-10">
+      <category name="Vegan">
+        <meal>
+          <name>Schupfnudelpfanne mit Grünkohl und Pilzen</name>
+          <note>Allergene: Soja</note>
+          <note>Vegetarische Speisen (V), Vegane Speisen (V*), Knoblauch (K)</note>
+          <note>ohne deklarationspflichtige Zusatzstoffe</note>
+          <price role="employee">4.40</price>
+          <price role="other">5.80</price>
+          <price role="student">2.00</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2026-11-11">
+      <category name="Vegan">
+        <meal>
+          <name>Gemüsebolognese mit Vollkornspirelli</name>
+          <note>Allergene: Sellerie</note>
+          <note>Vegetarische Speisen (V), Vegane Speisen (V*)</note>
+          <note>ohne deklarationspflichtige Zusatzstoffe</note>
+          <price role="employee">4.40</price>
+          <price role="other">5.80</price>
+          <price role="student">2.00</price>
+        </meal>
+      </category>
+    </day>
+  </canteen>
+</openmensa>
+
