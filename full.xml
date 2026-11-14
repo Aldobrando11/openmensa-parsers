@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
+  <version>2.0</version>
+  <canteen>
+    <day date="2026-11-14">
+      <category name="Vegan">
+        <meal>
+          <name>Kürbiscremesuppe mit Kokosnussmilch, dazu ein Kaiserbrötchen</name>
+          <note>Allergene: Weizen</note>
+          <note>Vegetarische Speisen (V), Vegane Speisen (V*), Knoblauch (K)</note>
+          <note>ohne deklarationspflichtige Zusatzstoffe</note>
+          <price role="employee">4.40</price>
+          <price role="other">5.80</price>
+          <price role="student">2.00</price>
+        </meal>
+      </category>
+      <category name="Vegetarisch">
+        <meal>
+          <name>Milchreis, Apfelmus, Zucker/ Zimt</name>
+          <note>Vegetarische Speisen (V)</note>
+          <note>ohne deklarationspflichtige Zusatzstoffe</note>
+          <price role="employee">4.80</price>
+          <price role="other">6.20</price>
+          <price role="student">2.50</price>
+        </meal>
+      </category>
+      <category name="Fleisch">
+        <meal>
+          <name>Spaghetti Bolognese , Reibekäse</name>
+          <note>Allergene: Milch- und Milchzucker</note>
+          <note>Schweinefleisch (S), Knoblauch (K)</note>
+          <note>ohne deklarationspflichtige Zusatzstoffe</note>
+          <price role="employee">5.40</price>
+          <price role="other">6.80</price>
+          <price role="student">3.20</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2026-11-16">
+      <category name="Vegan">
+        <meal>
+          <name>Penne all´arrabiata</name>
+          <note>Vegetarische Speisen (V), Vegane Speisen (V*), Knoblauch (K)</note>
+          <note>ohne deklarationspflichtige Zusatzstoffe</note>
+          <price role="employee">4.40</price>
+          <price role="other">5.80</price>
+          <price role="student">2.00</price>
+        </meal>
+      </category>
+      <category name="Fleisch">
+        <meal>
+          <name>Bratwurst mit Sauerkraut und Kartoffeln</name>
+          <note>Allergene: Soja, Milch- und Milchzucker, Sellerie</note>
+          <note>Schweinefleisch (S), Rindfleisch (R), Knoblauch (K)</note>
+          <note>Zusatzstoffe: Antioxidationsmittel, Geschmacksverstärker, Phosphat</note>
+          <price role="employee">5.90</price>
+          <price role="other">7.30</price>
+          <price role="student">3.70</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2026-11-17">
+      <category name="Vegan">
+        <meal>
+          <name>Kürbiscremesuppe mit Kokosnussmilch, dazu ein Weizenbrötchen</name>
+          <note>Vegetarische Speisen (V), Vegane Speisen (V*)</note>
+          <note>ohne deklarationspflichtige Zusatzstoffe</note>
+          <price role="employee">4.40</price>
+          <price role="other">5.80</price>
+          <price role="student">2.00</price>
+        </meal>
+      </category>
+      <category name="Fleisch">
+        <meal>
+          <name>Currywurstpfanne mit Kartoffelrösti</name>
+          <note>Allergene: Sellerie</note>
+          <note>Schweinefleisch (S)</note>
+          <note>Zusatzstoffe: Farbstoff, Konservierungsstoff, Antioxidationsmittel, Geschmacksverstärker, Phosphat, Karmin</note>
+          <price role="employee">5.90</price>
+          <price role="other">7.30</price>
+          <price role="student">3.70</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2026-11-18">
+      <category name="Vegan">
+        <meal>
+          <name>Farfalle mit cremiger Spinat-Tomatensoße</name>
+          <note>Vegetarische Speisen (V), Vegane Speisen (V*), Knoblauch (K)</note>
+          <note>ohne deklarationspflichtige Zusatzstoffe</note>
+          <price role="employee">4.40</price>
+          <price role="other">5.80</price>
+          <price role="student">2.00</price>
+        </meal>
+      </category>
+      <category name="Fleisch">
+        <meal>
+          <name>Hähnchenbrustfilet im Knuspermantel mit Basilikum-Tomaten-Gnocchi</name>
+          <note>Allergene: Hühnerei</note>
+          <note>Geflügel (G)</note>
+          <note>ohne deklarationspflichtige Zusatzstoffe</note>
+          <price role="employee">6.20</price>
+          <price role="other">7.60</price>
+          <price role="student">4.20</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2026-11-19">
+      <category name="Vegan">
+        <meal>
+          <name>Plant-Based Kesselgulasch mit einem Brötchen</name>
+          <note>Allergene: Soja</note>
+          <note>Vegetarische Speisen (V), Vegane Speisen (V*)</note>
+          <note>ohne deklarationspflichtige Zusatzstoffe</note>
+          <price role="employee">4.40</price>
+          <price role="other">5.80</price>
+          <price role="student">2.00</price>
+        </meal>
+      </category>
+      <category name="Fisch">
+        <meal>
+          <name>Fischstäbchen mit Kräutersoße und Kartoffelstampf , Salatbeilage</name>
+          <note>Allergene: Hühnerei, Fisch, Milch- und Milchzucker</note>
+          <note>Fisch (F)</note>
+          <note>ohne deklarationspflichtige Zusatzstoffe</note>
+          <price role="employee">5.40</price>
+          <price role="other">6.80</price>
+          <price role="student">3.20</price>
+        </meal>
+      </category>
+    </day>
+  </canteen>
+</openmensa>
+
