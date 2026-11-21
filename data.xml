@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
+  <version>2.0</version>
+  <canteen>
+    <day date="2026-11-23">
+      <category name="Vegan">
+        <meal>
+          <name>Linseneintopf mit 2 Scheiben Roggenbrot</name>
+          <note>Allergene: Sellerie, Weizen</note>
+          <note>Vegetarische Speisen (V), Vegane Speisen (V*)</note>
+          <note>ohne deklarationspflichtige Zusatzstoffe</note>
+          <price role="employee">4.40</price>
+          <price role="other">5.80</price>
+          <price role="student">2.00</price>
+        </meal>
+      </category>
+      <category name="Fleisch">
+        <meal>
+          <name>Wurstgulasch , Nudeln</name>
+          <note>Allergene: Sellerie</note>
+          <note>Schweinefleisch (S)</note>
+          <note>Zusatzstoffe: Konservierungsstoff, Antioxidationsmittel, Phosphat, Süßungsmittel(n)</note>
+          <price role="employee">5.10</price>
+          <price role="other">6.50</price>
+          <price role="student">2.80</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2026-11-24">
+      <category name="Vegan">
+        <meal>
+          <name>2 Sellerie-Kartoffelpuffer mit Rote-Beete-Meerrettich-Dip</name>
+          <note>Allergene: Soja, Sellerie, Schwefeloxid/Sulfite</note>
+          <note>Vegetarische Speisen (V), Vegane Speisen (V*)</note>
+          <note>Zusatzstoffe: Antioxidationsmittel, Süßungsmittel(n)</note>
+          <price role="employee">4.40</price>
+          <price role="other">5.80</price>
+          <price role="student">2.00</price>
+        </meal>
+      </category>
+      <category name="Fleisch">
+        <meal>
+          <name>Cordon Bleu mit Erbsen und Kartoffelstampf</name>
+          <note>Allergene: Milch- und Milchzucker</note>
+          <note>Geflügel (G), Knoblauch (K)</note>
+          <note>Zusatzstoffe: Konservierungsstoff, Antioxidationsmittel</note>
+          <price role="employee">7.20</price>
+          <price role="other">8.60</price>
+          <price role="student">5.20</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2026-11-25">
+      <category name="Vegan">
+        <meal>
+          <name>Bolognese von roten Linsen mit Vollkornspaghetti</name>
+          <note>Allergene: Sellerie</note>
+          <note>Vegetarische Speisen (V), Vegane Speisen (V*), Speiseangebote mit BIO-Komponenten - die als BIO ausgelobten Speisenkomponenten sind kontrolliert durch Grünstempel DE-ÖKO-021</note>
+          <note>ohne deklarationspflichtige Zusatzstoffe</note>
+          <price role="employee">4.40</price>
+          <price role="other">5.80</price>
+          <price role="student">2.00</price>
+        </meal>
+      </category>
+      <category name="Fleisch">
+        <meal>
+          <name>Gyros vom Schwein , Tsatsiki , Weißkohlsalat und Reis</name>
+          <note>Schweinefleisch (S), Knoblauch (K)</note>
+          <note>ohne deklarationspflichtige Zusatzstoffe</note>
+          <price role="employee">6.20</price>
+          <price role="other">7.60</price>
+          <price role="student">4.20</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2026-11-26">
+      <category name="Vegan">
+        <meal>
+          <name>Indisches Dal mit Vollkornreis</name>
+          <note>Vegetarische Speisen (V), Vegane Speisen (V*), Knoblauch (K), Koriander (Ko)</note>
+          <note>ohne deklarationspflichtige Zusatzstoffe</note>
+          <price role="employee">4.40</price>
+          <price role="other">5.80</price>
+          <price role="student">2.00</price>
+        </meal>
+      </category>
+      <category name="Fisch">
+        <meal>
+          <name>Backfisch mit Kartoffeln, Kräutersoße und Salat</name>
+          <note>Allergene: Fisch, Milch- und Milchzucker</note>
+          <note>Fisch (F), Knoblauch (K)</note>
+          <note>Zusatzstoffe: Antioxidationsmittel, gewachst</note>
+          <price role="employee">5.90</price>
+          <price role="other">7.30</price>
+          <price role="student">3.70</price>
+        </meal>
+      </category>
+    </day>
+  </canteen>
+</openmensa>
+
