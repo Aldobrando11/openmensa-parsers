@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
+  <version>2.0</version>
+  <canteen>
+    <day date="2026-11-27">
+      <category name="Vegan">
+        <meal>
+          <name>Chili sin Carne mit Reis</name>
+          <note>Vegetarische Speisen (V), Vegane Speisen (V*), Knoblauch (K)</note>
+          <note>ohne deklarationspflichtige Zusatzstoffe</note>
+          <price role="employee">4.40</price>
+          <price role="other">5.80</price>
+          <price role="student">2.00</price>
+        </meal>
+      </category>
+      <category name="Fleisch">
+        <meal>
+          <name>Chili con Carne mit Reis oder Baquettebrötchen</name>
+          <note>Allergene: Weizen</note>
+          <note>Schweinefleisch (S), Knoblauch (K)</note>
+          <note>ohne deklarationspflichtige Zusatzstoffe</note>
+          <price role="employee">5.90</price>
+          <price role="other">7.30</price>
+          <price role="student">3.70</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2026-11-30">
+      <category name="Vegan">
+        <meal>
+          <name>Mie-Nudeln mit Asiagemüse, Sesam und Koriander</name>
+          <note>Allergene: Soja, Sesam</note>
+          <note>Vegetarische Speisen (V), Vegane Speisen (V*), Knoblauch (K), Koriander (Ko)</note>
+          <note>ohne deklarationspflichtige Zusatzstoffe</note>
+          <price role="employee">4.40</price>
+          <price role="other">5.80</price>
+          <price role="student">2.00</price>
+        </meal>
+      </category>
+      <category name="Fleisch">
+        <meal>
+          <name>Schweinefrikadelle , Rotkohl und Kartoffeln</name>
+          <note>Allergene: Hühnerei, Soja, Milch- und Milchzucker, Sellerie, Senf</note>
+          <note>Schweinefleisch (S), Rindfleisch (R), Knoblauch (K)</note>
+          <note>ohne deklarationspflichtige Zusatzstoffe</note>
+          <price role="employee">5.40</price>
+          <price role="other">6.80</price>
+          <price role="student">3.20</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2026-12-01">
+      <category name="Vegan">
+        <meal>
+          <name>Kichererbsen- Tomaten- Eintopf, dazu 1/2 Fladenbrot</name>
+          <note>Allergene: Sesam, Weizen</note>
+          <note>Vegetarische Speisen (V), Vegane Speisen (V*)</note>
+          <note>ohne deklarationspflichtige Zusatzstoffe</note>
+          <price role="employee">4.40</price>
+          <price role="other">5.80</price>
+          <price role="student">2.00</price>
+        </meal>
+      </category>
+      <category name="Fleisch">
+        <meal>
+          <name>Hähnchenbrustfilet im Knuspermantel , Erbsen und Kartoffelstampf</name>
+          <note>Allergene: Milch- und Milchzucker</note>
+          <note>Geflügel (G), Knoblauch (K)</note>
+          <note>ohne deklarationspflichtige Zusatzstoffe</note>
+          <price role="employee">6.20</price>
+          <price role="other">7.60</price>
+          <price role="student">4.20</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2026-12-02">
+      <category name="Vegan">
+        <meal>
+          <name>Weißkohlcurry mit Kartoffeln und Cashewkernen</name>
+          <note>Vegetarische Speisen (V), Vegane Speisen (V*), Knoblauch (K)</note>
+          <note>ohne deklarationspflichtige Zusatzstoffe</note>
+          <price role="employee">4.40</price>
+          <price role="other">5.80</price>
+          <price role="student">2.00</price>
+        </meal>
+      </category>
+      <category name="Fleisch">
+        <meal>
+          <name>Geschnetzeltes in Tomaten- Kräuterrahm , Reis und Salatbeilage</name>
+          <note>Allergene: Milch- und Milchzucker</note>
+          <note>Schweinefleisch (S)</note>
+          <note>ohne deklarationspflichtige Zusatzstoffe</note>
+          <price role="employee">6.20</price>
+          <price role="other">7.60</price>
+          <price role="student">4.20</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2026-12-03">
+      <category name="Vegan">
+        <meal>
+          <name>Gersten-Gemüse-Pfanne mit Basilikumsoße</name>
+          <note>Allergene: Weizen, Gerste</note>
+          <note>Vegetarische Speisen (V), Vegane Speisen (V*)</note>
+          <note>ohne deklarationspflichtige Zusatzstoffe</note>
+          <price role="employee">4.40</price>
+          <price role="other">5.80</price>
+          <price role="student">2.00</price>
+        </meal>
+      </category>
+      <category name="Vegetarisch">
+        <meal>
+          <name>3 Quarkkeulchen , Apfelmus</name>
+          <note>Allergene: Hühnerei, Milch- und Milchzucker</note>
+          <note>Vegetarische Speisen (V)</note>
+          <note>ohne deklarationspflichtige Zusatzstoffe</note>
+          <price role="employee">4.80</price>
+          <price role="other">6.20</price>
+          <price role="student">2.50</price>
+        </meal>
+      </category>
+    </day>
+  </canteen>
+</openmensa>
+
